@@ -57,11 +57,11 @@ $route['translate_uri_dashes'] = FALSE;
 $route['url/test']["GET"] = 'URL/index';
 
 // url 
-$route['url/create']["GET"] = 'URL';
-$route['url/create']["POST"] = 'URL ';
+// $route['url/create']["GET"] = 'URL';
+$route['url/create'] = 'URL/create';
 
 //Redirect
-$route['r/(:any)']["GET"] = 'URL';
+$route['r/(:any)'] = 'URL/r/$1';
 
 //Analytics (dashboard)
 $route['url/list']["GET"] = 'URL';
