@@ -1,6 +1,6 @@
 <?php
 
-class url extends CI_Model {
+class url_model extends CI_Model {
 
             public function __construct()
         {
@@ -8,7 +8,7 @@ class url extends CI_Model {
                 $this->load->database();       
         }
 
-    public function create($url){
+    public function create($url ,  $random){
 
 	}
 

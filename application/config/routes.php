@@ -54,6 +54,8 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
+$route['url/test']["GET"] = 'URL/index';
+
 // url 
 $route['url/create']["GET"] = 'URL';
 $route['url/create']["POST"] = 'URL ';
